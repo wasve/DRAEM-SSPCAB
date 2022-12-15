@@ -30,7 +30,7 @@
 
 <!-- /TOC -->
 
-# STPM Model
+# DRAEM+SSPCAB Model
 
 This model is unsupervised learning. By manually adding Perlin noise to good samples, it becomes defective samples, which are then sent to the network for training. The input sample is reconstructed, and then the binary map of the defect is displayed through the identification network SSPCAB self-monitoring module is added to the convolution layer of the penultimate layer of this network to improve the overall performance of the model.
 # Dataset
